@@ -1,0 +1,237 @@
+/*Body Styling*/
+body{
+    background-color: pink;
+    color: black;
+}
+
+/*Image Styles*/
+img.largethumb{
+  float:left;
+  padding: 10px 20px;
+  height: 150px;
+}
+
+img.leftdisplay{
+  float:left;
+  padding: 10px 20px;
+  height: 300px;
+}
+
+.largeIMG{
+  display:block;
+  height: 280px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+img.researchIMG{
+  float:left;
+  padding: 10px 20px 10px 10px;
+  height: 200px;
+}
+
+img.gridIMG{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  height: 180px;
+}
+
+/* Photo Gallery Styles */
+img.gridPic{
+	width:300px;
+}
+
+/*Container for Text Pages*/
+.pagecontainer {
+	padding: 10px 50px 10px 20px;
+}
+
+/*Main Styling*/
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 150%;
+	color: #336699;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 20px;
+	margin-bottom: -5px;
+	margin-top: 10px;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: normal;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 20px;
+	color: #336699;
+	margin-bottom: -10px;
+	margin-top: 10px;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 150%;
+	font-weight: bold;
+	color: #336699;
+	text-align: left;
+	margin-bottom: -5px;
+	margin-top: 15px;
+	padding-left: 30px;
+}
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+	padding-left: 30px;
+	margin-bottom: -10px;
+	margin-top: 10px;
+}
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	text-align: left;
+	padding: 5px 5px 5px 30px;
+}
+
+.quote {
+	margin-top: -10px;
+	margin-bottom: -10px;
+	margin-left: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+ul li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	text-align: left;
+	padding: 5px 5px 5px 30px;
+}
+
+.progressivelinks {
+    font-size: .9rem;
+    line-height: 1rem;
+    text-align: center;
+    margin: auto;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td, th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	border: 1px solid #45677C;
+    padding: 10px;
+    text-align: left;
+}
+
+/* link Styling*/
+a:link {
+	color: #336699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	text-align: left;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	text-align: left;
+	color: #006699;
+}
+a:hover {
+	color: #333333;
+}
+.invisible a:link {
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	line-height: 100%;
+	text-align: right;
+}
+.invisible a:visited {
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	line-height: 100%;
+	text-align: right;
+}
+.invisible a:hover {
+	color: #FFFFFF;
+}
+
+/*Footer Styling*/
+footer {
+    border-top: 3px solid black;
+    clear: left;
+}
+footer p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 100%;
+}
+footer a:link {
+	color: #336699;
+  font-weight: bold;
+}
+footer a:visited {
+  font-weight: bold;
+	color: #006699;
+}
+footer a:hover {
+  color: #333333;
+}
+
+/*header styling*/
+header{
+    margin-bottom: 0em;
+    padding-bottom:0em;
+    text-align: center;
+    border-bottom:5px dotted white;
+}
+header h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 150%;
+	color: #1d3752;
+	font-size: 32px;
+  	font-weight: bold;
+  	text-align: center;
+  	padding-top: 10px;
+}
+header h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 150%;
+	color: #336699;
+	font-size: 18px;
+  	font-weight: bold;
+  	text-align: center;
+ 	padding-bottom: 30px;
+}
+
+/*Nav Styling*/
+nav{
+  padding: 15px;
+}
+nav ul{
+  list-style-type: none;
+	padding: 0px 5px 0px 10px;
+}
+nav ul li{
+  text-align: left;
+  padding: 0.5em 0.5em 0.5em 0.0em;
+  font-weight:bold;
+}
